@@ -1,0 +1,22 @@
+list.files
+getwd()
+setwd("/Users/dipanshi.suranaicloud.com/Desktop")
+grep(".csv",list.files(),value=T)
+banks<-read.csv("Untitled form.csv")
+banks
+sampebanks<-na.exclude(banks)
+sampebanks
+head(banks)
+summary(banks)
+dim(banks)
+ncol(banks)
+nrow(banks)
+str(banks)
+colnames(banks)
+plot(banks)
+plot(x=banks[,"age"], y= banks[,"income"])
+
+
+
+
+
