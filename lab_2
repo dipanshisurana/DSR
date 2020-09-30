@@ -16,6 +16,16 @@ colnames(banks)
 plot(banks)
 plot(x=banks[,"age"], y= banks[,"income"])
 
+***************
+CODE _2
+
+getwd()
+software<-read.delim("Mar.csv",sep=",")
+software
+colnames(software)
+software<-cbind(software,price=c(100,200))
+colnames(software)
+
 
 
 
