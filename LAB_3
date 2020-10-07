@@ -1,0 +1,33 @@
+CODE 1
+
+buff_tail<-c(10,1,37,5,12)
+garden_bee<-c(8,3,9,6,4)
+red_tail<-c(18,9,12,4,5)
+carder_bee<-c(8,27,6,23,32)
+honey_bee<-c(12,13,16,9,10)
+dat<-data.frame(buff_tail,garden_bee,red_tail,carder_bee,honey_bee)
+dat
+str(dat)
+nrow(dat)
+ncol(dat)
+class(dat)
+row.names(dat)
+rownames(dat) <- c("Thistle","Vipers","Golden Rain","Yell","Blueberry")
+dat
+
+******************************
+
+
+CODE 2
+getwd()
+setwd("/Users/dipanshi.suranaicloud.com/Desktop")
+software<-read.delim("abc.csv",sep=',')
+software
+summary(software)
+colnames(software)
+software<-cbind(software,price=c(100,200))
+write.csv(software,"data.csv",row.names=FALSE)
+
+
+
+
