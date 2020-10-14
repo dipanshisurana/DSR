@@ -16,7 +16,6 @@ matrix
 
 CODE 2:
 
-
 integers=c(10,20,30)
 strings=c("why","what","when")
 real_numbers=c(-23.55,14.2,77.0)
